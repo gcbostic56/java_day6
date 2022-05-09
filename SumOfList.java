@@ -31,10 +31,10 @@ public class SumOfList {
         String finalNumbers = "Your list contains (in order): ";
         for (int j = 0; j < list.size(); j++) {
             if (j == list.size() - 1) {
-                finalNumbers += String.valueOf(list.get(j) + ".");
+                finalNumbers += "and "+String.valueOf(list.get(j) + ".");
             }
             else {
-            finalNumbers += String.valueOf(list.get(j) + " ");
+            finalNumbers += String.valueOf(list.get(j) + ", ");
             }
         }
         System.out.println(finalNumbers+ "\nThe sum is " +result+ ".");
